@@ -1,55 +1,45 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <link href="/css/jquery.vegas.css" media="screen, projection" rel="stylesheet" type="text/css" />
-    <link href="/css/downshift.labs.css" media="screen, projection" rel="stylesheet" type="text/css" />
-    <link href='http://fonts.googleapis.com/css?family=UnifrakturMaguntia|Average+Sans' rel='stylesheet' type='text/css'>
+<!DOCTYPE html>
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-    <script src="/js/jquery.vegas.js"></script>
-    <script>
-      $( function() {
-        $.vegas('overlay', {
-          src: '/images/overlays/02.png',
-          opacity:1 
-        });
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>eCommerce Consultant in SF Bay Area | Downshift Labs</title>
+  <link rel="stylesheet" href="css/foundation.css">
+  <script src="js/vendor/custom.modernizr.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1><a href="/">Downshift Labs</a></h1>
 
-        $.vegas('slideshow', {
-          delay: 30000,
-          preload: true,
-          backgrounds:[
-            { src:'/images/bg/miata-rear.jpg'},
-            { src:'/images/bg/ktm-690.jpg' },
-            { src:'/images/bg/c36-amg.jpg' },
-            { src:'/images/bg/300-sdl.jpg' }
-          ]
-        });
-      });
-    </script>
-
-    <title>eCommerce Consultant in SF Bay Area | Downshift Labs</title>
-  </head>
-  <body>
-    <div class="container">
-      <h1><a href="/">Downshift Labs</a></h1>
-
-      <div id="main" role="main">
-        {{ content }}
-        <p>If you use these things, you can follow me on <a href="http://twitter.com/jumph4x">Twitter</a>, <a href="http://www.jumph4x.net">Tumblr</a> or <a href="http://github.com/jumph4x">Github</a>.<br/>Otherwise, email me directly: at <code>&#100;&#101;&#110;&#105;&#115;&#064;&#100;&#111;&#119;&#110;&#115;&#104;&#105;&#102;&#116;&#108;&#097;&#098;&#115;&#046;&#099;&#111;&#109;</code></p>
-        <p></p>
-      </div>
+    <div id="main" role="main">
+      {{ content }}
+      <p>If you use these things, you can follow me on <a href="http://twitter.com/jumph4x">Twitter</a>, <a href="http://www.jumph4x.net">Tumblr</a> or <a href="http://github.com/jumph4x">Github</a>.<br/>Otherwise, email me directly: at <code>&#100;&#101;&#110;&#105;&#115;&#064;&#100;&#111;&#119;&#110;&#115;&#104;&#105;&#102;&#116;&#108;&#097;&#098;&#115;&#046;&#099;&#111;&#109;</code></p>
+      <p></p>
     </div>
+  </div>
 
-    <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-2844090-9']);
-      _gaq.push(['_trackPageview']);
+  <script>
+    document.write('<script src=' +
+    ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
+    '.js><\/script>')
+  </script>
+  <script src="js/foundation.min.js"></script>
 
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-    </script> 
-  </body>
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-2844090-9']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+    $(document).foundation();
+  </script>
+</body>
+
 </html>
