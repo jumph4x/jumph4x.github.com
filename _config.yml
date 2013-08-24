@@ -5,7 +5,7 @@ production_url: http://downshiftlabs.com
 url: http://downshiftlabs.com
 
 safe: false
-auto: true
 baseurl: /
 
 markdown: rdiscount
+pygments: true
