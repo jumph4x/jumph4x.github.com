@@ -1,0 +1,38 @@
+.fixed.sticky{
+  height: 50px;
+}
+.transition, a{
+  -webkit-transition: ease .2s;
+  -moz-transition: ease .2s;
+  -o-transition: ease .2s;
+  transition: ease .2s;
+}
+.fancy{
+  font-size: 1.2em;
+  font-weight: 400 !important;
+  font-family: 'Raleway', sans-serif;
+}
+.fancy-heading{
+  font-weight: 100;
+  font-family: 'Raleway', sans-serif;
+}
+#logo{
+  line-height: 45px;
+  vertical-align: middle;
+}
+.top-bar a{
+  font-weight: 400 !important;
+}
+.top-bar a:hover{
+  color: #bedd15; 
+}
+.hero{
+  background: #f5f5f5;
+}
+.competencies{
+  font-size: 90px;
+  line-height: 1em;
+  text-transform: uppercase;
+  text-align: center;
+  background: #fff;
+}
