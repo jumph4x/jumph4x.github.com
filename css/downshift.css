@@ -6,7 +6,7 @@ body{
 .fixed.contain-to-grid{
   height: 50px;
 }
-.transition, a{
+.transition, a, a div{
   -webkit-transition: ease .2s;
   -moz-transition: ease .2s;
   -o-transition: ease .2s;
@@ -43,13 +43,12 @@ body{
 #main{
   margin-top: 30px;
 }
-.competencies{
+.competencies .columns{
+  letter-spacing: -0.09em;
+  line-height: 0.8em;
   font-size: 90px;
-  line-height: 1em;
   text-transform: uppercase;
   text-align: center;
-  border-right: 10px solid rgba(0,0,0,0.3);
-  border-left: 10px solid rgba(0,0,0,0.3);
 }
 .services{
   margin-top: 2em;
@@ -68,14 +67,48 @@ body{
   color: #000;
   text-decoration: underline;
 }
+.services a:hover{
+  background: #bedd15; 
+}
 .work{
   margin-top: 2em;
 }
 .work a{
-  background: rgba(190,221,21, 1);
   text-transform: uppercase;
-  color: #000;
-  font-size: 2em;
-  margin-bottom: 0.5em;
+  font-size: 1.7em;
+  margin-bottom: -0.5em;
   display: block;
+}
+.work a .front{
+  background: rgba(190,221,21, 1);
+  color: #000;
+  height: 56px;
+  border-bottom: 1px solid black;
+  padding-left: 5px;
+  overflow: hidden;
+}
+.work a:hover .front{
+  -webkit-transform: translateZ(-28px) translateY(0) rotateX(90deg);
+  -moz-transform: translateZ(-28px) translateY(0) rotateX(90deg);
+}
+.work a .bottom{
+  padding-left: 5px;
+  background: #000;
+  color: #fff;
+  height: 28px;
+  border-top: 1px solid rgba(190,221,21,1);
+  overflow: hidden;
+  -webkit-transform: translateZ(-14px) translateY(-14px) rotateX(-90deg);
+  -moz-transform: translateZ(-14px) translateY(-14px) rotateX(-90deg);
+}
+.work a:hover .bottom{
+  -webkit-transform: translateZ(0) translateY(-28px) rotateX(0deg);
+  -moz-transform: translateZ(0) translateY(-28px) rotateX(0deg);
+}
+#footer{
+  border-top: 1px solid rgba(0,0,0,0.3);
+  background: rgba(0,0,0,0.05);
+  text-align: center;
+  margin-top: 2em;
+  padding: 1em 0;
 }
