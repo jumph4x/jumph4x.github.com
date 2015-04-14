@@ -1,4 +1,9 @@
 $('body').vegas({
+  preload: true,
+  overlay: true,
+  shuffle: true,
+  delay: 10000,
+  transitionDuration: 300,
   slides: [
     { src: '/img/1.jpg' },
     { src: '/img/2.jpg' },
