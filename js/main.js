@@ -14,7 +14,6 @@ $('body').vegas({
     { src: '/img/8.jpg' },
     { src: '/img/9.jpg' },
     { src: '/img/10.jpg' },
-    { src: '/img/11.jpg' },
-    { src: '/img/12.jpg' }
+    { src: '/img/11.jpg' }
   ]
 });
