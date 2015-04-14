@@ -223,13 +223,8 @@ p{
 
   font-family: 'Amatic SC', cursive;
 }
-@media only screen and (min-width: 35em) {
-  #panel{
-    width: 500px;
-  }
-}
 #panel p{
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .glass{
   background: rgba(0,0,0,0);
@@ -239,4 +234,13 @@ p{
 }
 #even_more{
   padding-top: 2rem;
+}
+
+@media only screen and (min-width: 35em) {
+  #panel{
+    width: 500px;
+  }
+  #panel p{
+    font-size: 1.5rem;
+  }
 }
