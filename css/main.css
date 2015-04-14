@@ -205,11 +205,11 @@ p{
 #name{
   margin: 0;
 }
-#more{
+#panel{
   color: white;
 }
-#more a{
-  color: lime;
+#panel a{
+  color: #9B30FF;
 }
 #panel{
   padding: 1rem;
@@ -224,11 +224,14 @@ p{
   font-family: 'Amatic SC', cursive;
 }
 #panel p{
-  font-size: 1.7rem;
+  font-size: 1.5rem;
 }
 .glass{
   background: rgba(0,0,0,0);
 }
 .black-glass{
-  background: rgba(0,0,0,0.4);
+  background: rgba(0,0,0,0.5);
+}
+#even_more{
+  padding-top: 2rem;
 }
