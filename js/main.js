@@ -1,6 +1,4 @@
 $('body').vegas({
-  preload: true,
-  overlay: true,
   shuffle: true,
   delay: 10000,
   transitionDuration: 300,
