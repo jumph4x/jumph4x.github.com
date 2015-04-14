@@ -4,6 +4,7 @@ $('body').vegas({
   shuffle: true,
   delay: 10000,
   transitionDuration: 300,
+  overlay: "/overlays/01.png",
   slides: [
     { src: '/img/1.jpg' },
     { src: '/img/2.jpg' },
