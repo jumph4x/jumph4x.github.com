@@ -212,9 +212,9 @@ p{
   color: #9B30FF;
 }
 #panel{
-  padding: 1rem;
-  width: 500px;
   margin: 0 auto;
+  padding: 1rem;
+  max-width: 75%;
   border-radius: 10px;
   text-align: center;
   position: relative;
@@ -222,6 +222,11 @@ p{
   transform: translateY(-50%);
 
   font-family: 'Amatic SC', cursive;
+}
+@media only screen and (min-width: 35em) {
+  #panel{
+    width: 500px;
+  }
 }
 #panel p{
   font-size: 1.5rem;
