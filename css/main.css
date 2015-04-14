@@ -199,10 +199,36 @@ textarea {
 html,body{
   height: 100.01%;
 }
+p{
+  margin: 0 0 0.25rem 0;
+}
 #name{
   margin: 0;
+}
+#more{
+  color: white;
+}
+#more a{
+  color: lime;
+}
+#panel{
+  padding: 1rem;
+  width: 500px;
+  margin: 0 auto;
+  border-radius: 10px;
   text-align: center;
   position: relative;
   top: 50%;
   transform: translateY(-50%);
+
+  font-family: 'Amatic SC', cursive;
+}
+#panel p{
+  font-size: 1.7rem;
+}
+.glass{
+  background: rgba(0,0,0,0);
+}
+.black-glass{
+  background: rgba(0,0,0,0.4);
 }
