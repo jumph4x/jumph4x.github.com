@@ -25,6 +25,7 @@ $(document).ready(function(){
   $("#tell_more").click(function(){
     $("#panel").toggleClass('black-glass', 300, "easeOutSine");
     $("#more").slideToggle();
+    $("#even_more").slideUp();
     return false;
   });
 
